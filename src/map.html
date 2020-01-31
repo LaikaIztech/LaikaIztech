@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_edf4bd67947a48e9995969a27b53d9c9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_edf4bd67947a48e9995969a27b53d9c9" ></div>
+        
+</body>
+<script>    
+    
+            var map_edf4bd67947a48e9995969a27b53d9c9 = L.map(
+                "map_edf4bd67947a48e9995969a27b53d9c9",
+                {
+                    center: [38.320907, 26.639365],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15.4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_39ea488aa950432aa7c707610124c3a2 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_edf4bd67947a48e9995969a27b53d9c9);
+        
+    
+            var tile_layer_7f63f300550b4afb877da36ccc98516c = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/rastertiles/voyager_nolabels/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_edf4bd67947a48e9995969a27b53d9c9);
+        
+    
+            var marker_79357315e6d54b3096aee736c4869001 = L.marker(
+                [38.316, 26.6396],
+                {}
+            ).addTo(map_edf4bd67947a48e9995969a27b53d9c9);
+        
+    
+        var popup_fb430bc3382346cca777d2c08f705eac = L.popup({"maxWidth": 500});
+
+        
+            var html_41ae203369be467490daad3f694cbd54 = $(`<div id="html_41ae203369be467490daad3f694cbd54" style="width: 100.0%; height: 100.0%;"><b>Name:</b> LAIKA-0</br><b>Status: </b>online</div>`)[0];
+            popup_fb430bc3382346cca777d2c08f705eac.setContent(html_41ae203369be467490daad3f694cbd54);
+        
+
+        marker_79357315e6d54b3096aee736c4869001.bindPopup(popup_fb430bc3382346cca777d2c08f705eac)
+        ;
+
+        
+    
+    
+            var marker_476129c8e4594dc796bdc10a6a2cd4ab = L.marker(
+                [38.3173, 26.6348],
+                {}
+            ).addTo(map_edf4bd67947a48e9995969a27b53d9c9);
+        
+    
+        var popup_66a78a530fb04b5c8dee7921c6e086b3 = L.popup({"maxWidth": 500});
+
+        
+            var html_6b74a591e5eb45cc8f0b9e71a89ecd1d = $(`<div id="html_6b74a591e5eb45cc8f0b9e71a89ecd1d" style="width: 100.0%; height: 100.0%;"><b>Name:</b> LAIKA-1</br><b>Status: </b>online</div>`)[0];
+            popup_66a78a530fb04b5c8dee7921c6e086b3.setContent(html_6b74a591e5eb45cc8f0b9e71a89ecd1d);
+        
+
+        marker_476129c8e4594dc796bdc10a6a2cd4ab.bindPopup(popup_66a78a530fb04b5c8dee7921c6e086b3)
+        ;
+
+        
+    
+    
+            var marker_2fe5f3cfcd2b4a22b764f6041cab0f8a = L.marker(
+                [38.3203, 26.6402],
+                {}
+            ).addTo(map_edf4bd67947a48e9995969a27b53d9c9);
+        
+    
+        var popup_0da479c2210b475a9fec7110eec4a73b = L.popup({"maxWidth": 500});
+
+        
+            var html_9fbc1671a6804f899d81d499fb6d3589 = $(`<div id="html_9fbc1671a6804f899d81d499fb6d3589" style="width: 100.0%; height: 100.0%;"><b>Name:</b> LAIKA-2</br><b>Status: </b>online</div>`)[0];
+            popup_0da479c2210b475a9fec7110eec4a73b.setContent(html_9fbc1671a6804f899d81d499fb6d3589);
+        
+
+        marker_2fe5f3cfcd2b4a22b764f6041cab0f8a.bindPopup(popup_0da479c2210b475a9fec7110eec4a73b)
+        ;
+
+        
+    
+    
+            var marker_65960d07b6b0404a9cc500e519136f82 = L.marker(
+                [38.3249, 26.6328],
+                {}
+            ).addTo(map_edf4bd67947a48e9995969a27b53d9c9);
+        
+    
+        var popup_f0bcac255d2e4595bbde91a736a85d4e = L.popup({"maxWidth": 500});
+
+        
+            var html_9aff95e6f9264850b5eeb0cf36926f94 = $(`<div id="html_9aff95e6f9264850b5eeb0cf36926f94" style="width: 100.0%; height: 100.0%;"><b>Name:</b> LAIKA-3</br><b>Status: </b>online</div>`)[0];
+            popup_f0bcac255d2e4595bbde91a736a85d4e.setContent(html_9aff95e6f9264850b5eeb0cf36926f94);
+        
+
+        marker_65960d07b6b0404a9cc500e519136f82.bindPopup(popup_f0bcac255d2e4595bbde91a736a85d4e)
+        ;
+
+        
+    
+    
+            var marker_df5ea1b32c26449da26277798d8b7ba1 = L.marker(
+                [38.322499, 26.637966],
+                {}
+            ).addTo(map_edf4bd67947a48e9995969a27b53d9c9);
+        
+    
+        var popup_ecd069f49b034a15baa38086d5409e5c = L.popup({"maxWidth": 500});
+
+        
+            var html_f2d3f9022ac74e00bb7c2a19b94f0e2b = $(`<div id="html_f2d3f9022ac74e00bb7c2a19b94f0e2b" style="width: 100.0%; height: 100.0%;"><b>Name:</b> LAIKA-4</br><b>Status: </b>online</div>`)[0];
+            popup_ecd069f49b034a15baa38086d5409e5c.setContent(html_f2d3f9022ac74e00bb7c2a19b94f0e2b);
+        
+
+        marker_df5ea1b32c26449da26277798d8b7ba1.bindPopup(popup_ecd069f49b034a15baa38086d5409e5c)
+        ;
+
+        
+    
+    
+            var marker_5f71622bccad4689a98ad947f67583c6 = L.marker(
+                [38.322952, 26.632102],
+                {}
+            ).addTo(map_edf4bd67947a48e9995969a27b53d9c9);
+        
+    
+        var popup_b9668815f47741698e5e2fa6c0952b14 = L.popup({"maxWidth": 500});
+
+        
+            var html_052ff8c022954a9db57f7237106d448a = $(`<div id="html_052ff8c022954a9db57f7237106d448a" style="width: 100.0%; height: 100.0%;"><b>Name:</b> LAIKA-5</br><b>Status: </b>online</div>`)[0];
+            popup_b9668815f47741698e5e2fa6c0952b14.setContent(html_052ff8c022954a9db57f7237106d448a);
+        
+
+        marker_5f71622bccad4689a98ad947f67583c6.bindPopup(popup_b9668815f47741698e5e2fa6c0952b14)
+        ;
+
+        
+    
+</script>
