@@ -23,7 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_dc9dc7bc1838439797b43e6abe13c413 {
+                #map_954ca1830cc8491eb51dcc9beb993834 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -35,17 +35,17 @@
 </head>
 <body>    
     
-            <div class="folium-map" id="map_dc9dc7bc1838439797b43e6abe13c413" ></div>
+            <div class="folium-map" id="map_954ca1830cc8491eb51dcc9beb993834" ></div>
         
 </body>
 <script>    
     
-            var map_dc9dc7bc1838439797b43e6abe13c413 = L.map(
-                "map_dc9dc7bc1838439797b43e6abe13c413",
+            var map_954ca1830cc8491eb51dcc9beb993834 = L.map(
+                "map_954ca1830cc8491eb51dcc9beb993834",
                 {
-                    center: [38.320907, 26.639365],
+                    center: [38.319907, 26.639365],
                     crs: L.CRS.EPSG3857,
-                    zoom: 15.4,
+                    zoom: 15.6,
                     zoomControl: true,
                     preferCanvas: false,
                 }
@@ -55,127 +55,163 @@
 
         
     
-            var tile_layer_c2c66140eaa5405ab88f130a4237734b = L.tileLayer(
+            var tile_layer_7436a7931a6b432e97b85a4823e86c43 = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_dc9dc7bc1838439797b43e6abe13c413);
+            ).addTo(map_954ca1830cc8491eb51dcc9beb993834);
         
     
-            var tile_layer_43d3ebf4e0054b46a4a061e614e41f9d = L.tileLayer(
+            var tile_layer_f0693effb4394f328730b0a034539bc4 = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/rastertiles/voyager_nolabels/{z}/{x}/{y}{r}.png",
-                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_dc9dc7bc1838439797b43e6abe13c413);
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e Project Laika", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_954ca1830cc8491eb51dcc9beb993834);
         
     
-            var marker_6f9eac58598b47b4a927b9c649f32ecf = L.marker(
+            var marker_f2b9ae8598a14a8bb3ac21406f27a96e = L.marker(
                 [38.316, 26.6396],
                 {}
-            ).addTo(map_dc9dc7bc1838439797b43e6abe13c413);
+            ).addTo(map_954ca1830cc8491eb51dcc9beb993834);
         
     
-        var popup_3f3a880ba2ae468aa19a170d60cd25d5 = L.popup({"maxWidth": 500});
+            var icon_c28da0b04c3b4488a1b322c536b7a846 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_f2b9ae8598a14a8bb3ac21406f27a96e.setIcon(icon_c28da0b04c3b4488a1b322c536b7a846);
+        
+    
+        var popup_e9042d82e4d5480c89b28549785f2210 = L.popup({"maxWidth": 500});
 
         
-            var html_506026cf55fa4da6a0e5c7a9f5cce07c = $(`<div id="html_506026cf55fa4da6a0e5c7a9f5cce07c" style="width: 100.0%; height: 100.0%;"><b>Name:</b> LAIKA-0</br><b>Status: </b>online</div>`)[0];
-            popup_3f3a880ba2ae468aa19a170d60cd25d5.setContent(html_506026cf55fa4da6a0e5c7a9f5cce07c);
+            var html_de45644bc3f0475cb3abc34aaefce092 = $(`<div id="html_de45644bc3f0475cb3abc34aaefce092" style="width: 100.0%; height: 100.0%;"><b>Name:</b> LAIKA-0</br><b>Location: </b>Mechanical Engineering Building</div>`)[0];
+            popup_e9042d82e4d5480c89b28549785f2210.setContent(html_de45644bc3f0475cb3abc34aaefce092);
         
 
-        marker_6f9eac58598b47b4a927b9c649f32ecf.bindPopup(popup_3f3a880ba2ae468aa19a170d60cd25d5)
+        marker_f2b9ae8598a14a8bb3ac21406f27a96e.bindPopup(popup_e9042d82e4d5480c89b28549785f2210)
         ;
 
         
     
     
-            var marker_db5ff6d1000044c3bcfb44d1b230899c = L.marker(
+            var marker_1ce4a48f339547888269c5987edf3f41 = L.marker(
                 [38.3173, 26.6348],
                 {}
-            ).addTo(map_dc9dc7bc1838439797b43e6abe13c413);
+            ).addTo(map_954ca1830cc8491eb51dcc9beb993834);
         
     
-        var popup_278bf8776acf407c948acca389b4d9d8 = L.popup({"maxWidth": 500});
+            var icon_6e0f05a277674dbd86f6a258cbd4d986 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_1ce4a48f339547888269c5987edf3f41.setIcon(icon_6e0f05a277674dbd86f6a258cbd4d986);
+        
+    
+        var popup_4ec8c798a8fc4cc78e3020efcce391fd = L.popup({"maxWidth": 500});
 
         
-            var html_db38a0316a8a4661a04eea8e30562615 = $(`<div id="html_db38a0316a8a4661a04eea8e30562615" style="width: 100.0%; height: 100.0%;"><b>Name:</b> LAIKA-1</br><b>Status: </b>online</div>`)[0];
-            popup_278bf8776acf407c948acca389b4d9d8.setContent(html_db38a0316a8a4661a04eea8e30562615);
+            var html_1a83543073524bbb80cb7f734404c3ca = $(`<div id="html_1a83543073524bbb80cb7f734404c3ca" style="width: 100.0%; height: 100.0%;"><b>Name:</b> LAIKA-1</br><b>Location: </b>SFL to Canteen Route</div>`)[0];
+            popup_4ec8c798a8fc4cc78e3020efcce391fd.setContent(html_1a83543073524bbb80cb7f734404c3ca);
         
 
-        marker_db5ff6d1000044c3bcfb44d1b230899c.bindPopup(popup_278bf8776acf407c948acca389b4d9d8)
+        marker_1ce4a48f339547888269c5987edf3f41.bindPopup(popup_4ec8c798a8fc4cc78e3020efcce391fd)
         ;
 
         
     
     
-            var marker_caf6593f77a14c1d8deca93c9dc578cd = L.marker(
+            var marker_b417af960ae542319398c5d3362f8046 = L.marker(
                 [38.3203, 26.6402],
                 {}
-            ).addTo(map_dc9dc7bc1838439797b43e6abe13c413);
+            ).addTo(map_954ca1830cc8491eb51dcc9beb993834);
         
     
-        var popup_6ac220aea32a4b8ab4761dc745b7e239 = L.popup({"maxWidth": 500});
+            var icon_df5786c23d47409daec753faaa33145e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_b417af960ae542319398c5d3362f8046.setIcon(icon_df5786c23d47409daec753faaa33145e);
+        
+    
+        var popup_8cdbaba5736f410a95a98fec4a07b6a3 = L.popup({"maxWidth": 500});
 
         
-            var html_841e532625db470e8333de410f8ba6d6 = $(`<div id="html_841e532625db470e8333de410f8ba6d6" style="width: 100.0%; height: 100.0%;"><b>Name:</b> LAIKA-2</br><b>Status: </b>online</div>`)[0];
-            popup_6ac220aea32a4b8ab4761dc745b7e239.setContent(html_841e532625db470e8333de410f8ba6d6);
+            var html_e0f1826cfd5847afbfd11b68105a7018 = $(`<div id="html_e0f1826cfd5847afbfd11b68105a7018" style="width: 100.0%; height: 100.0%;"><b>Name:</b> LAIKA-2</br><b>Location: </b>Library Building - SKS Entrance</div>`)[0];
+            popup_8cdbaba5736f410a95a98fec4a07b6a3.setContent(html_e0f1826cfd5847afbfd11b68105a7018);
         
 
-        marker_caf6593f77a14c1d8deca93c9dc578cd.bindPopup(popup_6ac220aea32a4b8ab4761dc745b7e239)
+        marker_b417af960ae542319398c5d3362f8046.bindPopup(popup_8cdbaba5736f410a95a98fec4a07b6a3)
         ;
 
         
     
     
-            var marker_8a548042afa84f4ea1691863bc109da7 = L.marker(
+            var marker_75e979cc20bd454a9d87e2263c35288b = L.marker(
                 [38.3249, 26.6328],
                 {}
-            ).addTo(map_dc9dc7bc1838439797b43e6abe13c413);
+            ).addTo(map_954ca1830cc8491eb51dcc9beb993834);
         
     
-        var popup_13c2804c87c843eb9cc17cf0b83eeff6 = L.popup({"maxWidth": 500});
+            var icon_af96fe58483844abba0402ea25a89292 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_75e979cc20bd454a9d87e2263c35288b.setIcon(icon_af96fe58483844abba0402ea25a89292);
+        
+    
+        var popup_2329536d6ec14223b169a752a9faaa81 = L.popup({"maxWidth": 500});
 
         
-            var html_4ed84d3fa33a4e98abe56523661f2bb8 = $(`<div id="html_4ed84d3fa33a4e98abe56523661f2bb8" style="width: 100.0%; height: 100.0%;"><b>Name:</b> LAIKA-3</br><b>Status: </b>online</div>`)[0];
-            popup_13c2804c87c843eb9cc17cf0b83eeff6.setContent(html_4ed84d3fa33a4e98abe56523661f2bb8);
+            var html_804720b2aac440f4a003d586c127d3a8 = $(`<div id="html_804720b2aac440f4a003d586c127d3a8" style="width: 100.0%; height: 100.0%;"><b>Name:</b> LAIKA-3</br><b>Location: </b>Architecture Faculty Building</div>`)[0];
+            popup_2329536d6ec14223b169a752a9faaa81.setContent(html_804720b2aac440f4a003d586c127d3a8);
         
 
-        marker_8a548042afa84f4ea1691863bc109da7.bindPopup(popup_13c2804c87c843eb9cc17cf0b83eeff6)
+        marker_75e979cc20bd454a9d87e2263c35288b.bindPopup(popup_2329536d6ec14223b169a752a9faaa81)
         ;
 
         
     
     
-            var marker_0849b91aa1fd4e81a11c996d3b367edd = L.marker(
+            var marker_fa9e4260390d4592bd4fe00556183fa0 = L.marker(
                 [38.322499, 26.637966],
                 {}
-            ).addTo(map_dc9dc7bc1838439797b43e6abe13c413);
+            ).addTo(map_954ca1830cc8491eb51dcc9beb993834);
         
     
-        var popup_958fd8b4248e43f780fe722619c6c051 = L.popup({"maxWidth": 500});
+            var icon_c7b60338410c428bba2b4f8d62785d83 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_fa9e4260390d4592bd4fe00556183fa0.setIcon(icon_c7b60338410c428bba2b4f8d62785d83);
+        
+    
+        var popup_9a40774890ef4f00a38fc1270ec26e94 = L.popup({"maxWidth": 500});
 
         
-            var html_0e906ee44e854b17926a2836a0829395 = $(`<div id="html_0e906ee44e854b17926a2836a0829395" style="width: 100.0%; height: 100.0%;"><b>Name:</b> LAIKA-4</br><b>Status: </b>online</div>`)[0];
-            popup_958fd8b4248e43f780fe722619c6c051.setContent(html_0e906ee44e854b17926a2836a0829395);
+            var html_345615b6d9184c5aa7e5542201d87d28 = $(`<div id="html_345615b6d9184c5aa7e5542201d87d28" style="width: 100.0%; height: 100.0%;"><b>Name:</b> LAIKA-4</br><b>Location: </b>Former AsmalÄ± Building</div>`)[0];
+            popup_9a40774890ef4f00a38fc1270ec26e94.setContent(html_345615b6d9184c5aa7e5542201d87d28);
         
 
-        marker_0849b91aa1fd4e81a11c996d3b367edd.bindPopup(popup_958fd8b4248e43f780fe722619c6c051)
+        marker_fa9e4260390d4592bd4fe00556183fa0.bindPopup(popup_9a40774890ef4f00a38fc1270ec26e94)
         ;
 
         
     
     
-            var marker_4ddfc8da7bff43969ddcdbb6da1c1b22 = L.marker(
+            var marker_35533f1b9a3246b88949ebfe34096879 = L.marker(
                 [38.322952, 26.632102],
                 {}
-            ).addTo(map_dc9dc7bc1838439797b43e6abe13c413);
+            ).addTo(map_954ca1830cc8491eb51dcc9beb993834);
         
     
-        var popup_103ba8dfe1eb4906bde60a6fe043f09c = L.popup({"maxWidth": 500});
+            var icon_11f3039f54b641eb8849cc983cfda793 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_35533f1b9a3246b88949ebfe34096879.setIcon(icon_11f3039f54b641eb8849cc983cfda793);
+        
+    
+        var popup_f5634886070648c5808480070c7d5f1e = L.popup({"maxWidth": 500});
 
         
-            var html_862d069ec0ea4850bc7fbb8ca4df8cf9 = $(`<div id="html_862d069ec0ea4850bc7fbb8ca4df8cf9" style="width: 100.0%; height: 100.0%;"><b>Name:</b> LAIKA-5</br><b>Status: </b>online</div>`)[0];
-            popup_103ba8dfe1eb4906bde60a6fe043f09c.setContent(html_862d069ec0ea4850bc7fbb8ca4df8cf9);
+            var html_a80e0a73ca3f4b0e89d1bfbef6f5f368 = $(`<div id="html_a80e0a73ca3f4b0e89d1bfbef6f5f368" style="width: 100.0%; height: 100.0%;"><b>Name:</b> LAIKA-5</br><b>Location: </b> Mathematics Faculty Building </div>`)[0];
+            popup_f5634886070648c5808480070c7d5f1e.setContent(html_a80e0a73ca3f4b0e89d1bfbef6f5f368);
         
 
-        marker_4ddfc8da7bff43969ddcdbb6da1c1b22.bindPopup(popup_103ba8dfe1eb4906bde60a6fe043f09c)
+        marker_35533f1b9a3246b88949ebfe34096879.bindPopup(popup_f5634886070648c5808480070c7d5f1e)
         ;
 
         
