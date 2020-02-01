@@ -1,2 +1,4 @@
 theme: jekyll-theme-minimal
-icon: icon.png
+title: "Project: Laika"
+logo: icon.png
+description: A proposal for gathering data on IZTECH's stray dog population
