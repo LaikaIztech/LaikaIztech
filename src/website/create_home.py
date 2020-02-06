@@ -1,7 +1,5 @@
-from typing import List
-from laika_conf import get_probes, LaikaProbe
+from website.laika_conf import get_probes, LaikaProbe
 from folium import Popup, Map, Marker, TileLayer, Icon
-from folium.features import CustomIcon
 
 
 def create_pop_up(probe: LaikaProbe) -> Popup:
@@ -22,4 +20,4 @@ def draw_map(file_name: str):
     m.save("map.html")
 
 if __name__ == "__main__":
-    draw_map('data/laika_config.csv')
+    draw_map('../data/laika_config.csv')
